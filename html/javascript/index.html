@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Including JavaScript</title>
+</head>
+<body>
+
+    <h1>Belajar JavaScript</h1>
+
+    <p id="pesan">
+        Klik tombol untuk mengubah teks.
+    </p>
+
+    <button onclick="ubahPesan()">
+        Klik Saya
+    </button>
+
+    <script>
+        function ubahPesan() {
+            document.getElementById("pesan").textContent =
+                "Teks berhasil diubah menggunakan JavaScript!";
+        }
+    </script>
+
+</body>
+</html>
